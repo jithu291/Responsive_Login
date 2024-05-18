@@ -185,6 +185,7 @@
         pointer-events: none;
         transition: .5s;
     }
+
     .image-section {
         display: none;
     }
@@ -201,7 +202,12 @@
         top: 30%;
         left: 48%;
     }
+
     .image-section {
         display: none;
+    }
+
+    .link-1 {
+        margin-left: 160px;
     }
 }
