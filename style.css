@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;
     background-color: #00523F;
-    /* border-radius: 20px; */
+    /* border-radius: 80px; */
 }
 
 .border {
@@ -145,7 +145,7 @@
 }
 
 /* Responsive Design */
-@media screen and (max-width:820px) {
+@media screen and (max-width:1030px) {
     .head-1 {
 
         font-size: 110px;
@@ -160,7 +160,8 @@
     .login-box {
         position: absolute;
         top: 30%;
-        left: 40%;
+        left: 50%;
+       
     }
 
     .login-box .user-box input {
@@ -173,6 +174,7 @@
         border-bottom: 1px solid #fff;
         outline: none;
         background: transparent;
+
     }
 
     .login-box .user-box label {
@@ -210,4 +212,5 @@
     .link-1 {
         margin-left: 160px;
     }
+    
 }
